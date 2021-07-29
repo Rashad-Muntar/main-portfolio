@@ -68,29 +68,13 @@ nav .wrapper .head-icon:hover{
   justify-content: space-between;
   width: 55%;
   margin-left: 70px;
+  box-sizing: border-box;
 }
 
 .content-wrapper .content{
   width: 45%;
 }
 
-.content-wrapper .content a{
-  background: rgb(255, 80, 133);
-  border-radius: 30px;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  transition: 300ms;
-}
-
-.content-wrapper .content a:hover{
-  margin-left: 5px;
-}
-
-.content-wrapper .content span{
-  color: rgb(255, 80, 133);
-}
 
 .content-wrapper .quote{
   width: 50%;
@@ -110,7 +94,7 @@ nav .wrapper .head-icon:hover{
 .content-wrapper p{
   padding: 0;
   margin: 0;
-  color: rgb(221, 221, 221);
+  color: white
 }
 
 .content-wrapper #attention{
@@ -187,7 +171,7 @@ nav .wrapper .head-icon:hover{
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.9;
   color: white;
   padding: 70px 30px;
   box-sizing: border-box;
@@ -292,7 +276,7 @@ nav .wrapper .head-icon:hover{
 .section_title{
   border-bottom: 3px solid #3EB489;
   font-size: 1.8em;
-  color: rgb(221, 221, 221);
+  color: white;
   margin: 0 0;
   padding: 10px;
   font-weight: 900;
@@ -300,7 +284,7 @@ nav .wrapper .head-icon:hover{
 }
 
 .profile-txt{
-  color: rgb(221, 221, 221);
+  color: white;
   margin-bottom: 35px;
   font-size: 1.1em;
   line-height: 1.5em;
@@ -384,7 +368,7 @@ margin-bottom: 50px;
   background-color: #262626;
   padding: 13px 30px;
   text-decoration: none;
-  color: gray;
+  color: rgb(230, 230, 230);
 }
 
 .contact_wrapper .medium .con i{
@@ -439,18 +423,19 @@ margin-bottom: 50px;
 
 .resume{
   background-color: #3EB489;
-  padding: 7px 14px;
+  padding: 10px 15px;
   border-radius: 7px;
-  color: #262626;
+  color: #212121;
   text-decoration: none;
   font-weight: 600;
   transition: 400ms;
 }
 
 .resume:hover{
-  background-color: #299b71;
-  color: #262626;
+  background-color: #2eac7e;
   text-decoration: none;
+  margin: -5px;
+  color: #212121;
 }
 
 
@@ -510,8 +495,10 @@ footer{
 }
 
 @media screen and (max-width: 1024px){
+  
    .header{
        min-height: 450px;
+       height: 45vh;
    }
 
    .about-me-wrapper{
@@ -540,6 +527,15 @@ footer{
       margin-left: 15px;
   }
 
+  .content-wrapper .content {
+    width: 70%;
+}
+
+.content-wrapper{
+  width: 65%;
+  margin-left: 40px;
+}
+
 }
 
 @media screen and (max-width: 768px){
@@ -547,12 +543,13 @@ footer{
       font-size: 2.3em;
       line-height: 1em;
   }
-  
-  .header .content-wrapper {
-      margin-left: 40px;
+
+  .content-wrapper{
+    width: 70%;
   }
   
   .header{
+    height: 50vh;
       min-height: 320px;
   }
 
@@ -591,6 +588,7 @@ footer{
 
   .about-me-wrapper  .tools .title{
       padding-bottom: 0;
+      
   }
 
   .about-me-wrapper  .tools .items {
@@ -626,6 +624,15 @@ footer{
   .cta{
      font-size: 1em;
   }
+
+  .content-wrapper .quote{
+    width: 60%;
+  }
+
+  .content-wrapper .title {
+    font-size: 1.2em;
+}
+
 }
 
 @media screen and (max-width: 480px){
@@ -670,9 +677,13 @@ footer{
 
 
 .header2 .content-wrapper .title{
-  font-size: 0.8em;
+  font-size: 1.2em;
   margin-bottom: 30px;
   margin-top: 10px;
+}
+
+.content-wrapper #attention{
+  font-size: 1.6em;
 }
 
   .header2 .content-wrapper .name{
@@ -687,7 +698,7 @@ footer{
   }
 
   .header2 .content-wrapper {
-      width: 94%;
+      width: 104%;
       margin-left: 11px;
   }
 
@@ -864,14 +875,22 @@ footer{
   background-color: #3EB489;
   padding: 5px 10px;
   border-radius: 7px;
+  transition: 400ms;
 }
 
 .details:hover{
-  color: #3EB489;
-  background-color: #c9c9c9;
+  background-color: #2eac7e;
+  text-decoration: none;
+  margin-bottom: -5px;
+  color: #212121;
 
 }
 
 .uk-button{
   display: none !important;
+}
+
+          
+.uk-modal-full p{
+  color: white !important;
 }
