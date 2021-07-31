@@ -3,6 +3,13 @@
     
   width: 100vw;
   background-color: #262626;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -128,7 +135,7 @@ nav .wrapper .head-icon:hover{
 }
 
 #my-projects{
-  width: 80vw;
+  width: 80%;
   margin: 0 auto;
 
 }
@@ -301,7 +308,7 @@ nav .wrapper .head-icon:hover{
 
 .about-me-wrapper{
   display: flex;
-  width: 80vw;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-between;
   margin-top: 100px;
@@ -334,7 +341,7 @@ nav .wrapper .head-icon:hover{
 }
 
 .contact_wrapper > div{
-width: 80vw;
+width: 80%;
 margin: 0 auto;
 display: flex;
 justify-content: space-between;
@@ -502,7 +509,7 @@ footer{
    }
 
    .about-me-wrapper{
-      width: 90vw;
+      width: 90%;
   }
 
   .about-me-wrapper .tools{
@@ -511,11 +518,11 @@ footer{
   }
 
   #my-projects{
-      width: 90vw;
+      width: 90%;
   }
 
   .contact_wrapper > div {
-      width: 90vw;
+      width: 90%;
   }
 
   .contact_wrapper .medium .con i{
@@ -554,7 +561,7 @@ footer{
   }
 
   #my-projects{
-      width: 95vw;
+      width: 95%;
   }
 
   .overlay p{
@@ -577,7 +584,7 @@ footer{
   }
 
   .about-me-wrapper  {
-      width: 95vw;
+      width: 95%;
       margin-top: 30px;
       margin-bottom: 50px;
   }
@@ -604,7 +611,7 @@ footer{
   }
 
   .contact_wrapper > div {
-      width: 95vw;
+      width: 95%;
   }
 
   .contact_wrapper .medium{
@@ -698,12 +705,12 @@ footer{
   }
 
   .header2 .content-wrapper {
-      width: 104%;
+      width: 100%;
       margin-left: 11px;
   }
 
   .about-me-wrapper {
-      width: 95vw;
+      width: 95%;
   }
 
   .about-me-wrapper  .me{
@@ -776,7 +783,7 @@ footer{
   }
 
   #my-projects{
-      width: 95vw;
+      width: 95%;
   }
 
   .cards .overlay .title{
@@ -796,7 +803,7 @@ footer{
       margin: 0; 
    }
   .contact_wrapper > div{
-      width: 95vw;
+      width: 95%;
       flex-direction: column;
     }
 
@@ -825,7 +832,7 @@ footer{
   }
 
   .contact_wrapper > div{
-      width: 95vw;
+      width: 95%;
     }
 
     .contact_wrapper .medium .con{
