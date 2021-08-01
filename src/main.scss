@@ -478,12 +478,28 @@ footer{
    background-color: rgb(182, 182, 182);
    width: 100%;
    height: 50px;
-   color: #262626;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   letter-spacing: 3px;
-   font-weight: 600;
+  
+}
+
+footer .wrapper{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  color: #262626;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+footer .wrapper a{
+  color: #262626;
+  font-size: 1.5em;
+}
+
+footer .wrapper a:hover{
+  color: #555555;
 }
 
 .header2{
@@ -660,6 +676,16 @@ footer{
       height: 100%;
       width: 95%;
       position: relative;
+  }
+
+  footer .wrapper{
+    width: 95%;
+    justify-content: center;
+    margin: 0 5px;
+  }
+
+  footer .wrapper small{
+    display: none;
   }
 
 .header{
